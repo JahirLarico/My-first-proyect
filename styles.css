@@ -6,6 +6,11 @@ html{
     --secondary_nav_color:white;
     --border:white;
     --background:#16181A;
+    --punteado:dashed;
+    --entero:solid;
+    --elegant:'Courier New', Courier, monospace;
+    --funny:cursive;
+    --normal:Arial, Helvetica, sans-serif;
 }
 *{
     margin: 0;
@@ -22,8 +27,7 @@ html{
     grid-template-rows: 1fr 1fr;
 }
 .header_title {
-    color:  var(--primary_title_color);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:var(--elegant);
     text-align: center;
     font-size: 2.5rem;
     color: var(--secondary_nav_color);
@@ -38,12 +42,12 @@ html{
 }
 .nav_options{
     color: var(--primary_nav_color);
-    border: dashed 1px var(--border);
-    border-radius: 20px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: var(--punteado) 1px var(--border);
+    border-radius:2rem;
+    font-family:var(--funny);
     text-align: center;
-    padding: 2% ;
-    font-size: 1.1rem;
+    padding: 1rem ;
+    font-size: 2rem;
     text-decoration: none;
     margin: 0.5rem 0rem;
 }
@@ -72,6 +76,10 @@ html{
 .main_information{
     display: block;
     width: 100%;
+}
+.main_information article{
+    font-family:var(--normal);
+    color: var(--secondary_nav_color);
 }
 #form{
     display: grid;
@@ -131,4 +139,5 @@ html{
     height: 50%;
     border-style: solid;
     border-radius: 5px;
+    border:var(--border) var(--punteado) 2px 
 }
