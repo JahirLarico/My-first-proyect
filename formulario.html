@@ -15,23 +15,23 @@
         <div class="header_container"></div>      
     </header>
     <main id="main">
-        <div id="main_information">
-            <div class="form">
-                <h1>My first example of a form</h1>
+        <div class="main_information">
+            <h1>My first example of a form</h1>
+            <div id="form">    
                 <form action="" onsubmit="event.preventDefault()"  class="form">
-                    <label for="first_name">
+                    <label for="first_name" class="flex_1">
                         <span>First name</span>
                         <input type="text" id="first_name" placeholder="Write your names" required>
                     </label>
-                    <label for="last_name">
+                    <label for="last_name" class="flex_2">
                         <span>Last names</span>
                         <input type="text" id="last_name" placeholder="Write your last names" required>
                     </label>
-                    <label for="birth">
+                    <label for="birth" class="flex_3">
                         <span>Date of birth</span>
                         <input type="datetime-local" id="birth" placeholder="Date of birth" required>
                     </label>
-                    <label for="sex">
+                    <label for="sex" class="flex_4">
                         <span>Sex</span>
                         <select name="" id="sex" required>
                             <option value="Nothing" ></option>
@@ -39,19 +39,19 @@
                             <option value="Male">M</option>
                         </select>
                     </label>
-                    <label for="email">
+                    <label for="email" class="flex_5">
                         <span>Email</span>
                         <input type="email" id="email" placeholder="Write your email" required>
                     </label>
-                    <label for="password">
+                    <label for="password" class="flex_6">
                         <span>Password</span>
                         <input type="password" id="password" placeholder="Write your password" required>
                     </label>
-                    <label for="confirm_password">
+                    <label for="confirm_password" class="flex_7">
                         <span>Confirm Password</span>
                         <input type="passwrod" id="confirm_password" placeholder="Confir your password please" required>
                     </label>
-                    <input type="submit" value="Send" id="send">
+                    <input type="submit" value="Send" id="send" class="flex_8">
                 </form>  
                 <p id="result"></p>
             </div>
