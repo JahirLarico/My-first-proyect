@@ -1,0 +1,17 @@
+:root{
+    --primary_nav_color: #005cbf;
+    --secondary_nav_color:white;
+    --border:white;
+    --background:#16181A;
+    --punteado:dashed;
+    --entero:solid;
+    --elegant:'Courier New', Courier, monospace;
+    --funny:cursive;
+    --normal:Arial, Helvetica, sans-serif;
+}
+#n_1,#n_2,#n_3{
+    width: 33.3%;
+}
+#n_4,#n_5{
+    width: 50%;
+}

@@ -72,7 +72,7 @@ html{
     margin-bottom: 2%;
     padding-left: 5%;
     padding-right: 5%;
-    gap: 4rem;
+    gap: 1rem;
 }
 .main_information{
     display: block;
@@ -83,6 +83,7 @@ html{
 }
 .main_information article{
     font-family:var(--normal);
+    font-size: 1rem;
     color: var(--secondary_nav_color);
 }
 .main_information_options{
@@ -90,7 +91,6 @@ html{
     color: var(--secondary_nav_color);
     font-family: var(--normal);
     font-size: 2rem;
-    
 }
 .main_information h1{
     font-family: var(--normal);
@@ -98,24 +98,30 @@ html{
     color: var(--secondary_nav_color);
 }
 #form{
-    display:block;
+    
     padding-left:10%;
     padding-right: 10%;
     padding-top: 10%;
 }
 .form{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-   
     color: var(--secondary_nav_color);
 }
 .form label input{
     width: 15rem;
     margin: 0 auto;
 }
-.flex_1, .flex_2,.flex_3,.flex_4,.flex_5,.flex_6,.flex_7,.flex_8{
+.flex_1, .flex_2,.flex_3,.flex_4,.flex_5,.flex_6,.flex_7{
     padding-bottom: 10%;
+    width: 100%;
     font-size: 1rem;
 } 
+.flex_8{
+    margin: 0 auto;
+    width: 50%;
+}
 #main_aside{
     border-style: var(--punteado);
     border-radius: 20px;
@@ -126,7 +132,6 @@ html{
     color: var(--primary_nav_color);
     font-family: var(--elegant);
     font-size: 1.5rem;
-
 }
 .main_aside_text{
     color: var(--secondary_nav_color);
@@ -160,6 +165,7 @@ html{
     text-align: center;
     font-family:var(--funny);
     color: var(--secondary_nav_color);
+    font-size: 1.5rem;
 }
 #canvas {
     width: 90%;
