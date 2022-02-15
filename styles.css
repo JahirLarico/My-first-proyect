@@ -28,7 +28,7 @@ html{
     font-family:var(--elegant);
     text-align: center;
     font-size: 3.5rem;
-    color: var(--secondary_nav_color);
+    color: red;
 }
 .header_img{
     color: var(--primary_nav_color);
