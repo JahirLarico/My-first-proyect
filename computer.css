@@ -9,6 +9,31 @@
     --funny:cursive;
     --normal:Arial, Helvetica, sans-serif;
 }
+.header_title{
+    font-size: 8rem;
+}
+.main_aside_title{
+    font-size: 3.5rem;
+}
+.main_aside_text{
+    font-size: 3rem;
+}
+.form label{
+    font-size: 3rem;
+}
+.form label input{
+    width: 10rem;
+}
+.main_information h1{
+    font-size: 3.5rem;
+}
+.form label .inputs{
+    width: 20rem;
+    text-align: center;
+}
 #n_1,#n_2,#n_3,#n_4,#n_5{
     width: 20%;
+}
+#send{
+    height: 4rem;
 }

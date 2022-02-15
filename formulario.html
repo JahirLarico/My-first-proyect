@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="tablet.css" media="screen and  (min-width:480px)">
     <link rel="stylesheet" href="desktop.css" media="screen and  (min-width: 800px)">
-    <link rel="stylesheet" href="desktop.css" media="screen and  (min-width: 1080px)">
+    <link rel="stylesheet" href="computer.css" media="screen and  (min-width: 1080px)">
 </head>
 <body id="body">
     <header id="header" class="header">
@@ -22,19 +22,19 @@
                 <form action="" onsubmit="event.preventDefault()"  class="form">
                     <label for="first_name" class="flex_1">
                         <p>First name</p>
-                        <input type="text" id="first_name" placeholder="Write your names" required>
+                        <input type="text" class="inputs" id="first_name" placeholder="Write your names" required>
                     </label>
                     <label for="last_name" class="flex_2">
                         <p>Last names</p>
-                        <input type="text" id="last_name" placeholder="Write your last names" required>
+                        <input type="text" class="inputs" id="last_name" placeholder="Write your last names" required>
                     </label>
                     <label for="birth" class="flex_3">
                         <p>Date of birth</p>
-                        <input type="datetime-local" id="birth" placeholder="Date of birth" required>
+                        <input type="datetime-local" class="inputs" id="birth" placeholder="Date of birth" required>
                     </label>
                     <label for="sex" class="flex_4">
                         <p>Sex</p>
-                        <select name="" id="sex" required>
+                        <select name="" class="inputs" id="sex" required>
                             <option value="Nothing" ></option>
                             <option value="Female">F</option>
                             <option value="Male">M</option>
@@ -42,15 +42,15 @@
                     </label>
                     <label for="email" class="flex_5">
                         <p>Email</p>
-                        <input type="email" id="email" placeholder="Write your email" required>
+                        <input type="email" class="inputs" id="email" placeholder="Write your email" required>
                     </label>
                     <label for="password" class="flex_6">
                         <p>Password</p>
-                        <input type="password" id="password" placeholder="Write your password" required>
+                        <input type="password" class="inputs" id="password" placeholder="Write your password" required>
                     </label>
                     <label for="confirm_password" class="flex_7">
                         <p>Confirm Password</p>
-                        <input type="passwrod" id="confirm_password" placeholder="Confir your password please" required>
+                        <input type="passwrod" class="inputs" id="confirm_password" placeholder="Confir your password please" required>
                     </label>
                     <input type="submit" value="Send" id="send" class="flex_8">
                 </form>  

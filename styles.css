@@ -18,13 +18,11 @@ html{
     box-sizing: border-box;
 }
 #body{
-    display: grid;
+  
     background-color: var(--background);
-    grid-template-rows: 1fr 2fr 3rem;      
+    
 }
 #header{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
 }
 .header_title {
     font-family:var(--elegant);
@@ -53,9 +51,11 @@ html{
 }
 #n_1,#n_2,#n_3,#n_4{
     width: 50%;
+    height: auto;
 }
 #n_5{
     width: 100%;
+    height: auto;
 }
 .navegator .nav_options:hover{
     color:black
@@ -73,6 +73,7 @@ html{
     padding-left: 5%;
     padding-right: 5%;
     gap: 1rem;
+    height: 100%
 }
 .main_information{
     display: block;
