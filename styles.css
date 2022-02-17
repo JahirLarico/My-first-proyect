@@ -20,7 +20,7 @@ html{
 #body{
   
     background-color: var(--background);
-    
+    margin: 0 10%;
 }
 #header{
 }
@@ -67,8 +67,7 @@ html{
 #main {
     display: grid;
     width: 100%;
-    grid-template-columns: 5fr 4fr ;
-    gap: 2%;
+    grid-template-columns: 5fr 2fr ;
     margin-bottom: 2%;
     padding-left: 5%;
     padding-right: 5%;
@@ -97,6 +96,9 @@ html{
     font-family: var(--normal);
     font-size: 2rem;
     color: var(--secondary_nav_color);
+}
+.main_information_options{
+    font-size: 2rem;
 }
 #form{
     
