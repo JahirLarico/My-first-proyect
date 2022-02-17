@@ -58,7 +58,7 @@ html{
     height: auto;
 }
 .navegator .nav_options:hover{
-    color:black
+    color:white
 }
 .navegator .nav_options:active{
     color:red
@@ -80,6 +80,7 @@ html{
     border:var(--entero) var(--secondary_nav_color) ;
     border-radius: 2rem;
     padding: 5% 2%;
+    height: 50rem;
 }
 .main_information article{
     font-family:var(--normal);
@@ -90,15 +91,12 @@ html{
     display: inline-flexbox;
     color: var(--secondary_nav_color);
     font-family: var(--normal);
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .main_information h1{
     font-family: var(--normal);
     font-size: 2rem;
     color: var(--secondary_nav_color);
-}
-.main_information_options{
-    font-size: 2rem;
 }
 #form{
     
@@ -171,10 +169,10 @@ html{
     font-size: 1.5rem;
 }
 #canvas {
-    width: 90%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     border-radius: 0.5rem;
-    border:var(--border) var(--entero) 2px ;
+    border:var(--border) var(--entero) 0.2rem ;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
