@@ -117,15 +117,12 @@ html{
     width: 15rem;
     margin: 0 auto;
 }
-.flex_1, .flex_2,.flex_3,.flex_4,.flex_5,.flex_6,.flex_7{
+.flex_1, .flex_2,.flex_3,.flex_4,.flex_5,.flex_6,.flex_7,.flex_8{
     padding-bottom: 10%;
     width: 100%;
     font-size: 1rem;
+   
 } 
-.flex_8{
-    margin: 0 auto;
-    width: 50%;
-}
 #main_aside{
     border-style: var(--punteado);
     border-radius: 20px;
