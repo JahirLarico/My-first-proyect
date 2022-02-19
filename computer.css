@@ -18,6 +18,10 @@
 .main_aside_text{
     font-size: 3rem;
 }
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
 .form label{
     font-size: 3rem;
 }
