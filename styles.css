@@ -75,11 +75,12 @@ html{
     height: 100%
 }
 .main_information{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     border:var(--entero) var(--secondary_nav_color) ;
     border-radius: 2rem;
-    padding: 5% 2%;
+   
     height: 50rem;
 }
 .main_information article{
@@ -100,12 +101,10 @@ html{
     font-family: var(--normal);
     font-size: 2rem;
     color: var(--secondary_nav_color);
+    padding: 5% 2%;
 }
 #form{
-    
-    padding-left:10%;
-    padding-right: 10%;
-    padding-top: 10%;
+    padding: 2% 10%;
 }
 .form{
     display: flex;
@@ -142,8 +141,7 @@ html{
 #footer{
     display: inline-block;
     width: 100%;
-    height: 100%;
-    
+    height: 100%; 
 }
 .footer_logos{
     display: grid;
