@@ -75,12 +75,11 @@ html{
     height: 100%
 }
 .main_information{
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     width: 100%;
     border:var(--entero) var(--secondary_nav_color) ;
     border-radius: 2rem;
-   
     height: 50rem;
 }
 .main_information article{
@@ -89,22 +88,24 @@ html{
     color: var(--secondary_nav_color);
 }
 .main_information_options{
-
     color: var(--secondary_nav_color);
     font-family: var(--normal);
     font-size: 1rem;
-    
     text-align: center;
     padding: auto auto;
 }
 .main_information h1{
     font-family: var(--normal);
     font-size: 2rem;
+    text-align: center;
     color: var(--secondary_nav_color);
-    padding: 5% 2%;
+    padding: 0% 2%;
+    padding-top: 5%;
+    width: 100%;
+    height: 1rem;
 }
 #form{
-    padding: 2% 10%;
+    padding: 0% 10%;
 }
 .form{
     display: flex;
@@ -120,8 +121,12 @@ html{
     padding-bottom: 10%;
     width: 100%;
     font-size: 1rem;
-   
 } 
+#send{
+    height: 2rem;
+    width: 50%;
+    margin: auto auto;
+}
 #main_aside{
     border-style: var(--punteado);
     border-radius: 20px;
@@ -137,6 +142,78 @@ html{
     color: var(--secondary_nav_color);
     font-family: var(--normal);
     font-size: 1.2rem;
+}
+.container{
+    position: relative;
+    min-width: 12rem;
+    min-height: 10rem;
+    background-color: #333;
+    padding: 4rem 3ren 3rem;
+    border-radius:0.1rem ;
+    box-shadow: 2.5rem 2.5rem 7.5rem rgba(0,0,0,0.25),
+    1rem 1rem 7rem rgba(0,0,0,0.25),
+    inset -0.5rem -0.5rem 1.5rem rgba(0,0,0,0.5),
+    inset 0.5rem 0.5rem 1.5rem rgba(0,0,0,0.5);
+}
+.container span{
+    color: white;
+    place-items: center;
+    position: relative;
+    display: grid;
+    margin: 2rem;
+    height: 2rem;
+    margin: 0.8rem;
+    background:linear-gradient(180deg,#2f2f2f,#3f3f3f3f);
+    box-shadow:
+    inset -0.8rem 0 0.8rem rgba(0,0,0,0.15),
+    inset 0 -0.8rem 0.8rem rgba(0,0,0,0.25),
+    0 0 0 0.2rem rgba(0,0,0,0.75),
+    1rem 2rem 2.5rem rgba(0,0,0,0.4);
+    user-select: none;
+    cursor: pointer;
+    font-weight: 400;
+}
+.container span :hover{
+    color: red;
+}
+.container span::before{
+    content: '';
+    position: absolute;
+    top: 0.3rem;
+    left: 0.4rem;
+    bottom: 1.4rem;
+    right: 1.2rem;
+    background: linear-gradient(90deg,#2d2d2d,#4d4d4d4d);
+    border-radius: 1rem;
+}
+.calculator{
+    position: relative;
+    display: grid;
+}
+.calculator .value{
+    position: relative;
+    grid-column:span 4;
+    height: 5rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    background-color: #A8AD7E;
+    border:none;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.75);
+    text-align: right;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.calculator .plus{
+    grid-row: span 2;
+    height: 6.2rem;
+}
+.calculator .clear{
+    grid-column: span 2;
+    background-color: red;
+}
+.calculator .equal{
+    background-color: blue;
 }
 #footer{
     display: inline-block;
