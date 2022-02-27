@@ -77,6 +77,46 @@
 .main_aside_text{
     font-size: 1.5rem;
 }
+.container{
+    position: relative;
+    min-width: 35rem;
+    min-height: 25rem;
+    margin:0% auto;
+    margin-bottom:1rem;
+    background-color: #333;
+}
+.container span{
+    color: var(--secondary_nav_color);
+    place-items: center;
+    position: relative;
+    display: grid;
+    margin: 6rem;
+    height: 6rem;
+    margin: 0.8rem;
+    font-size: 3.5rem;
+}
+.container span::before{
+    content: '';
+    position: absolute;
+    top: 0.9rem;
+    left: 1.2rem;
+    bottom: 4.2rem;
+    right: 3.6rem;
+}
+.calculator .value{
+    position: relative;
+    grid-column:span 4;
+    height: 8rem;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: #A8AD7E;
+    font-size: 3.5rem;
+}
+.calculator .plus{
+    grid-row: span 2;
+    height: 15.2rem;
+}
 .footer_rights{
     font-size: 2rem;
 }
