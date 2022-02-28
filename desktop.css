@@ -28,6 +28,9 @@
 .main_aside_title{
     font-size: 2rem;
 }
+.main_information h1{
+    font-size: 4rem;
+}
 .flex_1{
     padding-bottom: 10%;
     width: 50%;

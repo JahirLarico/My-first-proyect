@@ -21,13 +21,15 @@
 #n_4,#n_5{
     width: 50%;
 }
-
 .main_information article{
     color: var(--secondary_nav_color);
     font-size: 1.5rem;
 }
 .main_aside_title{
     font-size: 2rem;
+}
+.main_information h1{
+    font-size: 3rem;
 }
 .form label input{
     width: 13rem;
