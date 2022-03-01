@@ -126,6 +126,7 @@ html{
     height: 2rem;
     width: 50%;
     margin: auto auto;
+    margin-bottom:1rem ;
 }
 #main_aside{
     border-style: var(--punteado);

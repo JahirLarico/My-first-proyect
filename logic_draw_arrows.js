@@ -1,34 +1,33 @@
 var dibujo = document.getElementById("canvas");
 var linea = dibujo.getContext("2d");
 var position = document.querySelector(".posicion");
+document.addEventListener("keydown",draw);
+var x=151;
+var y=76;
 const  teclas ={
     UP:38,
     DOWN:40,
     LEFT:37,
     RIGHT:39
 };
-function run(){
-    let numero=n_lineas.value;
-    let posicion=position.value;
-        while(numero>=1){
-            let fin=numero*10;
-            if(posicion=="left"){
-                dibujarlinea("pink",0,251,fin,50);
-                numero--
-            }
-            else if(posicion=="right"){
-                dibujarlinea("pink",500,250,fin,20);
-                numero--
-            }
-            else if(posicion=="top"){
-                dibujarlinea("pink",250,0,fin,250);
-                numero--
-            }
-            else if(posicion=="both"){
-                dibujarlinea("pink",250,500,fin,250);
-                numero--
-            }
-        }
+function draw(event){
+    if(event.keyCode==teclas.UP){
+        dibujarlinea("white",x,y,x,y-10);
+        y=y-10;
+    }
+    else if(event.keyCode==teclas.DOWN){
+        dibujarlinea("white",x,y,x,y+10);
+        y=y+10;
+    }
+    else if(event.keyCode==teclas.LEFT){
+        dibujarlinea("white",x,y,x-10,y);
+        x=x-10;
+    }
+    else if(event.keyCode==teclas.RIGHT){
+        dibujarlinea("white",x,y,x+10,y);
+        x=x+10;
+    }
+
 }
 function dibujarlinea(color,xini,yini,xfin,yfin)
 {   
